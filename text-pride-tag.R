@@ -1,8 +1,8 @@
 
-devtools::install_github("truenumbers/tnum/tnum")
+#devtools::install_github("truenumbers/tnum/tnum")
 
 library(tnum)
-tnum.authorize()
+tnum.authorize(ip="54.158.136.133") 
 
 test <- tnum.getDatabasePhraseList("subject", levels = 3)
 test

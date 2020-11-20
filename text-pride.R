@@ -2,7 +2,7 @@ library(tnum)
 library(tidyverse)
 library(magrittr)
 
-tnum.authorize()
+tnum.authorize(ip="54.158.136.133") 
 
 test <- tnum.getDatabasePhraseList("subject", levels = 3)
 test
