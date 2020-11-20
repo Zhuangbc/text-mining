@@ -1,2 +1,2 @@
 # text-mining
-## Code in price-tag.R
+## Code in text-pride.R
